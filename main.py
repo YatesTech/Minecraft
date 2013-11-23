@@ -28,7 +28,7 @@ MAX_JUMP_HEIGHT = 1.0 # About the height of a block.
 JUMP_SPEED = math.sqrt(2 * GRAVITY * MAX_JUMP_HEIGHT)
 TERMINAL_VELOCITY = 50
 
-PLAYER_HEIGHT = 2
+PLAYER_HEIGHT = 3
 
 def cube_vertices(x, y, z, n):
     """ Return the vertices of the cube at position x, y, z with size 2*n.
